@@ -40,7 +40,7 @@ int update()
 int main(int argc, char *argv[]) {
 
     if ( (display = XOpenDisplay(display_name)) == NULL )
-    { fprintf(stderr, "%s: couldn't connect to X server %s\n", "foo", "bar");
+    { fprintf(stderr, "%s: couldn't connect to X server %s\n", "capslockmon", display_name);
             exit(EXIT_FAILURE);
     }
 
